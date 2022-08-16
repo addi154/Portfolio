@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portpolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5bbb508a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                   <!--<li> <a href="#services">Services</a></li>-->
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Android Developer</p>
+                <h1>Hi, I'm <span>Aditya<br> Singh</span> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg" width="20%">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Bachelor of Technology in Computer Science student from Siliguri Institute of Technology. <br> I am a talented, ambitious and hardworking individual, 
+                        with skills and experience in android development and also familiar with web development. <br> I work on technologys like JAVA, CSS, HTML, JAVASCRIPT, FIREBASE.
+                        <br>
+                        Feel free to contact me for any collaboration/project.
+                    </p>
+                        <div class="tag-titles">
+                            <p  class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p  class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p  class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Android Development</span><br>Native Mobile Android Apps</li>
+                                <li><span>Web Development</span><br>Frontend Web Development</li>
+                                <!--<li><span>UI/UX</span><br>Designing Web/App Interfaces</li>--->
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - Current</span><br>Web Developer Intern at UNIcompiler</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Current</span><br>BTech in CSE from Siliguri Institute of Technology</li>
+                                <li><span>2019</span><br>High School from DAV School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------services------
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Andriod Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos consectetur 
+                        veniam distinctio est eveniet debitis deserunt mollitia saepe, 
+                        optio, magni accusantium at eum rem adipisci tenetur aspernatur non harum ducimus?</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos consectetur 
+                        veniam distinctio est eveniet debitis deserunt mollitia saepe, 
+                        optio, magni accusantium at eum rem adipisci tenetur aspernatur non harum ducimus?</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i> 
+                    <h2>Web Devlopment</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos consectetur 
+                        veniam distinctio est eveniet debitis deserunt mollitia saepe, 
+                        optio, magni accusantium at eum rem adipisci tenetur aspernatur non harum ducimus?</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.jpg">
+                    <div class="layer">
+                        <h3>Note Creating App</h3>
+                        <p>The app helps you to create your day-to-day notes in a organised manner. You can store your notes by signing up with
+                            your google account and access them from anywhere.
+                        </p>
+                        <a href="https://github.com/addi154/TakeNoteOf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.jpg">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Helps you to access weather condition in your area in real time.</p>
+                        <a href="https://github.com/addi154/WeatherApp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.jpg">
+                    <div class="layer">
+                        <h3>News App</h3>
+                        <p>The app keeps you updated with all the latest news from various domain like sports, finance, technology etc.
+                        </p>
+                        <a href="https://github.com/addi154/NewsApplication"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/addi154" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------contact------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>adityasingh.28g@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aditya-singh-257852194/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/addi154"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/ask2addi"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/_addi_xd/"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                    <a href="image/FinalRESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Aditya.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwaFuooTnaeACj_nw6T-71N_K8W0XxSC6X_QO1Zanxyt_ndnm2mZw0PMgf099SuDlB8Uw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
